@@ -1,0 +1,1328 @@
+/* ------------------------Google Front Start--------------------------- */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Ephesis', cursive;
+font-family: 'Poppins', sans-serif; */
+
+
+/* ------------------------Google Front End--------------------------- */
+
+
+
+
+
+/* ------------------------Global CSS Start--------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    width: 100%;
+    background: rgb(255, 250, 250);
+}
+
+/* ------------------------Global CSS End--------------------------- */
+
+
+/* ------------------------left Arrow Start-------------------------- */
+.left_arrow{
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    position: fixed;
+    z-index: 50;
+}
+.left_arrow img{
+    height: 25px;
+    width: 25px;
+}
+
+
+.left_right_arrow{
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    position: fixed;
+    z-index: 50;
+}
+.left_right_arrow img{
+    height: 25px;
+    width: 25px;
+}
+
+
+
+
+
+
+/* ------------------------left Arrow End-------------------------- */
+
+
+
+
+/* --------------------- Nav laft section start ---------------------- */
+.left_nav{
+    background: #d1fcdd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 90;
+}
+
+.left_left_arrow{
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    z-index: 100;
+    display: none;
+}
+.left_left_arrow img{
+    height: 25px;
+    width: 25px;
+}
+/* ----User Box start--- */
+.left_nav .user_box{
+    background: #b1e2bf;
+    width: 100%;
+    padding:10% 5%;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px ;
+}
+.left_nav .user_box img{
+    height: 70px;
+    width: 70px;
+    display: block;
+    margin: auto;
+}
+.left_nav .user_box button{
+    cursor: pointer;
+    margin-top: 10%;
+    padding: 7px 25px ;
+    border-radius:15px;
+    background: #d1fcdd;
+}
+.left_nav .user_box button:hover{
+    background: #FD8469;
+    color:#ffffff;
+}
+/* ----User Box End--- */
+
+/* --Menu Section start- */
+.menu_container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.menu_container a{
+    color:black;
+    margin: 18px 0;
+    transition: all 0.3s linear;
+}
+.menu_container a:hover{
+    letter-spacing: 2px;
+    color:#FD8469;
+    transition: all 0.3s linear;
+}
+/* --Menu Section End- */
+
+/* --verifi section start-- */
+.verrify_box{
+    width: 100%;
+    padding:10% 5%;
+    text-align: center;
+    background: #b1e2bf;
+    border-radius: 15px 15px 0px 0px ;
+}
+.verrify_box img{
+    height: 100px;
+    width: 120px;
+}
+.verrify_box  h1{
+    font-size: 18px;
+}
+.verrify_box p{
+    font-size: 14px;
+    color:rgba(0, 0, 0, 0.801);
+}
+.verrify_box button{
+    margin-top: 8%;
+    cursor: pointer;
+    padding: 7px 25px;
+    border-radius:15px;
+    background:#d1fcdd;;
+}
+.verrify_box button:hover{
+    background: #FD8469;
+    color:#ffffff;
+}
+/* --verifi section End-- */
+
+/* --------------------- Nav laft section End ---------------------- */
+
+/* --------------------- nav Right section start---------------------- */
+.right_nav{
+    background: #b8b8b83a;
+    width: 250px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    position: fixed;
+    padding: 1.5% .5%;
+    border-left: 1px solid rgba(33, 235, 94, 0.438);
+    backdrop-filter: blur(35px);
+    z-index: 100;
+}
+/* --right Arrow start--- */
+.right_arrow{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+.right_arrow img{
+    height: 25px;
+    width: 25px;
+}
+/* --right Arrow End--- */
+.right_nav .right_nav_container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8%;
+}
+/* --calender section start-- */
+.right_nav .time_section img{
+    height: 130px;
+    width: 180px;
+}
+.right_nav .time_section h1{
+    font-size: 17px;
+}
+
+/* --calender section End-- */
+
+/* --Active Section start-- */
+.active_section{
+    width: 100%;
+    display: flex;
+    margin-left:8%;
+    flex-direction: column;
+}
+.active_section .text_box {
+    margin-bottom: 7%;
+}
+.active_section .text_box h1{
+    font-size: 17px;
+    line-height: 18px;
+}
+.active_section .text_box p{
+    font-size: 13px;
+}
+.active_section .active_card{
+    padding:2%;
+    margin: 5% 0;
+    display: flex;
+    cursor: pointer;
+    margin-right: 7%;
+}
+.active_section .active_card:hover{
+    background: #0bbd3b1f;
+}
+.active_section .active_card img{
+    height:40px;
+    width: 40px;
+    margin-right: 20px;
+}
+.active_section .active_card .info h2{
+    font-size: 16px;
+    line-height: 17px;
+}
+.active_section .active_card .info p{
+    font-size: 13px;
+    color:rgba(0, 0, 0, 0.801);
+}
+/* --Active Section End-- */
+
+/* --------------------- nav Right section End---------------------- */
+
+/* -----------------------Service Section Start------------------------- */
+.service_section{
+    width: 100%;
+    padding-left: 15%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.service_container{
+    display: flex;
+}
+/* -------Serrvice left section start------ */
+.left_col{
+    width: 55%;
+}
+.right_col{
+    width: 45%;
+}
+.left_col{
+    padding-top: 4%;
+    padding-left: 4%;
+}
+.left_col h1{
+    font-size: 74px;
+    line-height: 100px;
+    color:#273238;
+}
+/* --service Card section start-- */
+.left_col .service_cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3% 0;
+}
+.left_col .service_cards .svc_card{
+    background:  #b1e2bf;
+    display: flex;
+    margin:1.5%;
+    width: 300px;
+    padding: 3% 2%;
+    border-radius: 8px;
+    transition: all 0.2s linear;
+    padding-right: 0;
+}
+.left_col .service_cards .svc_card:hover{
+    background:#d1fcdd;
+    transform: translateX(5px);
+    transition: all 0.2s linear;
+}
+.left_col .service_cards .svc_card img{
+    height: 50px;
+    width: 50px;
+    margin-right: 5%;
+}
+.left_col .service_cards .svc_card  h2{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 450;
+}
+.left_col .service_cards .svc_card  p{
+    font-size: 13px;
+    line-height:16px;
+    color:rgba(56, 56, 56, 0.856);
+}
+/* --service Card section End-- */
+
+/* --service sarch section start-- */
+.left_col .search_box{
+    display: flex;
+    margin-top: 75px;
+}
+.left_col .search_box img{
+    height: 30px;
+    width: 30px;
+}
+.left_col .search_box input{
+    width: 90%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    background:none;
+    padding: 0 1%;
+}
+/* --service sarch section End-- */
+/* ---------Serrvice left section end--------- */
+
+/* --------Serrvice Right section start------- */
+.right_col{
+    padding: 5% 2%;
+}
+.right_col img{
+    height:600px;
+    width: 100%;
+}
+.right_nav{
+    right: -100%;
+}
+
+.right_nav.active{
+    right: 0%;
+}
+.right_nav.joy{
+    right: -100%;
+}
+
+/* ---------Service Right Section End---------- */
+/* -----------------------Service Section End------------------------- */
+
+/* ------------------------boocking section start--------------------- */
+.boocking_section{
+    width: 100%;
+    padding-left: 15%;
+    padding-top: 2%;
+}
+.boocking_section h1{
+    font-size: 42px;
+    color:#273238;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin: 3% 0;
+}
+.book_container{
+    display: flex;
+}
+/* ----book lefft sention start ---- */
+.book_left_col{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 0;
+    padding-left: 3%;
+}
+.book_left_col .book_card{
+    background:  #b1e2bf;
+    display: flex;
+    margin: 2%;
+    width: 40%;
+    padding: 1% 1.5%;
+    border-radius: 8px;
+    transition: all 0.2s linear;
+}
+.book_left_col .book_card:hover{
+    background: #ffc7bb;
+}
+.book_left_col .book_card img{
+    width: 90px;
+    height: 90px;
+    margin-right: 5%;
+}
+.book_left_col .book_card .text_bx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+}
+.book_left_col .book_card .text_bx h2{
+    font-size:20px;
+    font-weight: 450;
+    margin-bottom: 4%;
+}
+.book_left_col .book_card .text_bx .button_bx{
+    display: flex;
+    text-align: center;
+}
+.book_left_col .book_card .text_bx .button_bx button{
+    padding: 2% 6%;
+    margin-right: 3%;
+    border-radius: 7px;
+    background:#D1FCDD;
+    cursor: pointer;
+}
+.book_left_col .book_card .text_bx .button_bx button:hover{
+    background: #ffffff;
+}
+/* ----book lefft sention End ---- */
+
+/* ----book right sention start ---- */
+.book_right_col{
+    width: 35%;
+    padding-top: 8%;
+    padding-right: 2%;
+}
+.book_right_col h1{
+    font-size: 42px;
+    line-height: 60px;
+    margin-bottom: 5%;
+    color:#01465F;
+}
+.book_right_col p{
+    font-size: 16px;
+    color:rgba(66, 66, 66, 0.658);
+    margin-bottom: 5%;
+}
+.book_right_col a{
+    background: #D1FCDD;
+    padding: 2% 3%;
+    border-radius: 5px;
+    color:rgb(43, 43, 43);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.book_right_col a:hover{
+    padding: 2% 10%;
+    transition: all 0.3s linear;
+}
+/* ----book right sention End ---- */
+/* ------------------------boocking section End--------------------- */
+
+/* ------------------------meeting section start---------------------- */
+.meeting_section{
+    width: 100%;
+    padding-left: 15%;
+    padding-top: 2%;
+}
+.meeting_section h1{
+    font-size: 42px;
+    color:#273238;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin: 3% 0;
+}
+.meeting_container{
+    display: flex;
+}
+/* ---meeting left section start-- */
+.mt_left_col{
+    width: 50%;
+}
+.mt_left_col h1{
+    font-size: 42px;
+    text-align: center;
+    color:#01465F;
+    border:none;
+}
+.mt_left_col .Mt_card_container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7%;
+}
+.mt_left_col .Mt_card_container .mt_card{
+    display: flex;
+    margin: 2%;
+    flex-direction: column;
+    width: 45%;
+    padding: 3% 2%;
+    transition: all 0.2s linear;
+    box-shadow: 0px 0px  12px #00000052;
+}
+.mt_left_col .Mt_card_container .mt_card:hover{
+    box-shadow: 0px 0px  2px #00000056;
+    transition: all 0.01s linear;
+}
+.mt_left_col .Mt_card_container .mt_card .row01{
+    display: flex;
+    margin-bottom: 8%;
+}
+.mt_left_col .Mt_card_container .mt_card .row01 img{
+    height: 60px;
+    width: 60px;
+    background: rgba(62, 204, 57, 0.164);
+    padding: 3%;
+    margin-right: 12%;
+    border-radius: 5px;
+}
+.mt_left_col .Mt_card_container .mt_card .row01 .mt_card_text h2{
+    font-size: 22px;
+    font-weight: 450;
+}
+.mt_left_col .Mt_card_container .mt_card .row01 .mt_card_text p{
+    font-size: 15px;
+    color:rgba(51, 51, 51, 0.384);
+}
+.mt_left_col .Mt_card_container .mt_card .row02{
+    width: 100%;
+}
+.mt_left_col .Mt_card_container .mt_card .row02 button{
+    width: 100%;
+    padding: 3% 0;
+    cursor: pointer;
+}
+/* ---meeting left section End-- */
+
+/* ---meeting right section Start-- */
+.mt_right_col{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+/* ---meeting right section End-- */
+/* ------------------------meeting section End---------------------- */
+
+
+
+/* ------------------------Review section start-------------------- */
+.review_section{
+    width: 100%;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.review_section h1{
+    font-size: 42px;
+    color:#273238;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin: 3% 0;
+}
+.review_container{
+    display: flex;
+}
+/* --review left section start--- */
+.rv_left_col{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rv_left_col img{
+    width: 80%;
+    height: 80%;
+
+}
+/* --review left section End--- */
+
+/* --review right section start--- */
+.rv_right_col{
+    width: 50%;
+}
+.rv_card_conatiner{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+.rv_card_conatiner .rv_card{
+    display: flex;
+    margin: 2%;
+    flex-direction: column;
+    width: 45%;
+    padding: 3% 2%;
+    transition: all 0.2s linear;
+    box-shadow: 0px 0px  4px #0000002d;
+    border-radius: 8px;
+    background:#ddfde6;
+}
+.rv_card_conatiner .rv_card:hover{
+    transform: translateY(-10px);
+}
+.rv_card_conatiner .rv_card img{
+    height: 50px;
+    width: 50px;
+}
+.rv_card_conatiner .rv_card p{
+    font-size: 15px;
+    font-weight: 300;
+    color:#273238f5;
+    margin: 5% 0;
+}
+.rv_card_conatiner .rv_card .rv_text_bx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rv_card_conatiner .rv_card .rv_text_bx .text h2{
+    font-size: 32px;
+    font-family: 'Ephesis', cursive;
+    line-height: 24px;
+}
+.rv_card_conatiner .rv_card .rv_text_bx .text p{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 13px;
+    margin-left: 13%;
+}
+.rv_card_conatiner .rv_card .rv_text_bx .rv_icon .icon{
+    height: 15px;
+    width: 15px;
+}
+/* --review right section End--- */
+/* ------------------------Review section End---------------------- */
+
+
+
+
+/* -----------------------Blog section start----------------------- */
+.blog_section{
+    width: 100%;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.blog_section h1{
+    font-size: 42px;
+    color:#273238;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin-bottom: 5%;
+}
+.blog_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.blog_container .blog_card{
+    background: #ddfde6;
+    margin: 3%;
+    padding: 2%;
+    border-radius: 8px;
+}
+.blog_container .blog_card img{
+    height:30%;
+    width: 100%
+}
+.blog_container .blog_card  h2{
+    font-size: 24px;
+    font-weight: 450;
+    margin: 3% 0;
+}
+.blog_container .blog_card p{
+    font-size: 15px;
+    font-weight: 300;
+    color:#273238cb;
+}
+/* -----------------------Blog section End----------------------- */
+
+
+/* ------------------location section start----------------------- */
+.location_section{
+    max-width: 100%;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.location_section h1{
+    font-size: 42px;
+    color:#273238;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin-bottom: 7%;
+}
+.location_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ---locatiobn left section start--- */
+.loc_left_col{
+    width: 50%;
+    text-align: center;
+}
+.loc_left_col img{
+    height:100%;
+    width: 80%;
+}
+/* ---locatiobn left section End--- */
+/* ---locatiobn right section Start--- */
+.loc_right_col{
+    width: 50%;
+}
+.loc_right_col h2{
+    font-size: 42px;
+    text-align: center;
+    color:#01465F;
+    margin-bottom: 8%;
+}
+.loc_right_col .loc_card_cpontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.loc_right_col .loc_card_cpontainer .loc_card{
+    background: #D1FCDD;
+    padding: 4% 3%;
+    margin: 2%;
+    border-radius: 8px;
+    transition: all 0.2s linear;
+}
+.loc_right_col .loc_card_cpontainer .loc_card h3{
+    font-size: 22px;
+    font-weight: 450;
+    color:#273238;
+    margin-bottom: 5%;
+}
+.loc_right_col .loc_card_cpontainer .loc_card p{
+    font-size: 16px;
+    color:#273238d3;
+}
+.loc_right_col .loc_card_cpontainer .loc_card:hover{
+    transform: translateY(-10px);
+    transition: all 0.2s linear;
+    background:#B1E2BF;
+}
+/* ---location right section End--- */
+/* ------------------location section End----------------------- */
+
+
+
+
+
+
+
+
+/* ------------------Media Query 1475px----------- */
+
+@media only screen and (max-width: 1475px){
+/* -----------------------Service Section Start------------------------- */
+    /* -------Serrvice left section start------ */
+    .left_col{
+        padding-top: 4%;
+        padding-left: 2%;
+    }
+    .left_col h1{
+        font-size:60px;
+        line-height: 80px;
+        color:#273238;
+    }
+    /* --service Card section start-- */
+    .left_col .service_cards .svc_card{
+        margin:1.2%;
+        width: 300px;
+    }
+    /* --service Card section End-- */
+
+    /* --service sarch section start-- */
+    .left_col .search_box{
+        margin-top: 35px;
+    }
+    /* --service sarch section End-- */
+    /* ---------Serrvice left section end--------- */
+
+    /* --------Serrvice Right section start------- */
+    .right_col{
+        padding: 5% 2.5%;
+    }
+    /* ---------Service Right Section End---------- */
+    /* -----------------------Service Section End------------------------- */
+
+    /* ------------------------boocking section start--------------------- */
+    .boocking_section{
+        padding-top: 0;
+    }
+    .boocking_section h1{
+        margin-top: 0;
+    }
+    /* ----book lefft sention start ---- */
+    .book_left_col{
+        margin: 3% 0;
+        padding-left: 1%;
+    }
+    .book_left_col .book_card{
+        margin: 1.2%;
+        width: 350px;
+    }
+    .book_left_col .book_card .text_bx .button_bx button{
+        padding: 2% 5%;
+        border-radius: 4px;
+    }
+    /* ----book lefft sention End ---- */
+
+    /* ----book right sention start ---- */
+    .book_right_col{
+        padding-top: 2%;
+    }
+    /* ----book right sention End ---- */
+    /* ------------------------boocking section End--------------------- */
+}
+/* ------------------Media Query 1475px----------- */
+
+
+
+
+
+
+/* ------------------Media Query 1400px----------- */
+@media only screen and (max-width: 1400px){
+        /* -----------------------Service Section Start------------------------- */
+        /* -------Serrvice left section start------ */
+        .left_col{
+            padding-top: 4%;
+            padding-left: 2%;
+        }
+        .left_col h1{
+            font-size:54px;
+            line-height: 70px;
+            color:#273238;
+        }
+        /* --service Card section start-- */
+        .left_col .service_cards .svc_card{
+            margin:1.2%;
+            width: 280px;
+            padding: 3% ;
+        }
+        .left_col .service_cards .svc_card  h2{
+            font-size: 16px;
+        }
+        /* --service Card section End-- */
+        /* -----------------------Service Section End------------------------- */
+        /* ------------------------boocking section start--------------------- */
+        .boocking_section{
+            padding-top: 0;
+        }
+        .boocking_section h1{
+            margin-top: 0;
+        }
+        /* ----book lefft sention start ---- */
+        .book_left_col{
+            margin: 3% 0;
+            padding-left: 1%;
+        }
+        .book_left_col .book_card{
+            margin: 1.2%;
+            width: 310px;
+        }
+        .book_left_col .book_card .text_bx .button_bx button{
+            padding: 2% 3%;
+            border-radius: 4px;
+        }
+        /* ----book lefft sention End ---- */
+
+        /* ----book right sention start ---- */
+        .book_right_col{
+            padding-top: 2%;
+        }
+        /* ----book right sention End ---- */
+        /* ------------------------boocking section End--------------------- */
+}
+    
+/* ------------------Media Query 1400px----------- */
+
+
+
+
+
+
+
+
+/* ------------------Media Query 1308px----------- */
+@media only screen and (max-width: 1308px) {
+    /* -----------------------Service Section Start------------------------- */
+    .service_section{
+        width: 100%;
+        padding-left: 15%;
+        padding-top: 2%;
+        padding-bottom: 5%;
+    }
+    .service_container{
+        display: initial;
+    }
+    /* -------Serrvice left section start------ */
+    .left_col{
+        width: 100%;
+    }
+    .right_col{
+        width: 100%;
+    }
+    .left_col{
+        padding-top: 4%;
+        padding-left: 4%;
+        padding-right: 7%;
+    }
+    .left_col h1{
+        font-size: 84px;
+        line-height: 100px;
+        color:#273238;
+    }
+    /* --service Card section start-- */
+    .left_col .service_cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 3% 0;
+    }
+    .left_col .service_cards .svc_card{
+        background:  #b1e2bf;
+        display: flex;
+        margin:1.5%;
+        width: 350px;
+        padding: 3% 2%;
+        border-radius: 8px;
+        transition: all 0.2s linear;
+        padding-right: 0;
+    }
+    .left_col .service_cards .svc_card:hover{
+        background:#d1fcdd;
+        transform: translateX(5px);
+        transition: all 0.2s linear;
+    }
+    .left_col .service_cards .svc_card img{
+        height: 50px;
+        width: 50px;
+        margin-right: 5%;
+    }
+    .left_col .service_cards .svc_card  h2{
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 450;
+    }
+    .left_col .service_cards .svc_card  p{
+        font-size: 13px;
+        line-height:16px;
+        color:rgba(56, 56, 56, 0.856);
+    }
+    /* --service Card section End-- */
+
+    /* --service sarch section start-- */
+    .left_col .search_box{
+        display: flex;
+        margin-top: 75px;
+    }
+    .left_col .search_box img{
+        height: 30px;
+        width: 30px;
+    }
+    .left_col .search_box input{
+        width: 90%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+        background:none;
+        padding: 0 1%;
+    }
+    /* --service sarch section End-- */
+    /* ---------Serrvice left section end--------- */
+
+    /* --------Serrvice Right section start------- */
+    .right_col{
+        padding: 7%;
+    }
+    .right_col img{
+        height:600px;
+        width: 100%;
+    }
+    .right_nav{
+        right: -100%;
+    }
+
+    .right_nav.active{
+        right: 0%;
+    }
+    .right_nav.joy{
+        right: -100%;
+    }
+    /* ---------Service Right Section End---------- */
+    /* -----------------------Service Section End------------------------- */
+
+    /* ------------------------boocking section start--------------------- */
+        .boocking_section h1{
+            margin-bottom: 7%;
+        }
+        .book_container{
+            display: initial;
+        }
+    /* ----book lefft sention start ---- */
+        .book_left_col{
+            width: 100%;
+            justify-content: center;
+        }
+        .book_left_col .book_card{
+            width: 45%;
+        }
+    /* ----book lefft sention End ---- */
+
+    /* ----book right sention start ---- */
+        .book_right_col{
+            width: 100%;
+            padding-top: 0%;
+            padding-right: 2%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+    .book_right_col h1{
+        border-bottom: none;
+        margin-bottom: 1%;
+        text-align: left;
+    }
+    /* ----book right sention End ---- */
+    /* ------------------------boocking section End--------------------- */
+    /* ------------------------meeting section start---------------------- */
+    .meeting_section{
+        width: 100%;
+        padding-left: 15%;
+        padding-top: 10%;
+    }
+
+    .meeting_container{
+        display: initial;
+    }
+    /* ---meeting left section start-- */
+    .mt_left_col{
+        width: 100%;
+    }
+    .mt_left_col .Mt_card_container{
+        padding:1% 3%;
+    }
+    /* ---meeting left section End-- */
+
+    /* ---meeting right section Start-- */
+    .mt_right_col{
+        width: 100%;
+        padding: 5%;
+    }
+    .mt_right_col img{
+        width: 100%;
+    }
+    /* ---meeting right section End-- */
+    /* ------------------------meeting section End---------------------- */
+
+    /* ------------------------Review section start-------------------- */
+    .review_container{
+        display: initial;
+    }
+    /* --review left section start--- */
+    .rv_left_col{
+        width: 100%;
+    }
+    /* --review left section End--- */
+
+    /* --review right section start--- */
+    .rv_right_col{
+        width: 100%;
+    }
+    /* --review right section End--- */
+    /* ------------------------Review section End---------------------- */
+    }
+/* ------------------Media Query 1308px----------- */
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------Media Query 991px----------- */
+@media only screen and (max-width: 991px){
+    /* --------------------- Nav laft section start ---------------------- */
+    /* --------------------- Nav laft section start ---------------------- */
+    .left_left_arrow{
+        display: initial;
+    }
+    .left_nav{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 25%;
+        height: 100vh;
+        background: rgba(221, 221, 221, 0.212);
+        backdrop-filter: blur(25px);
+    }
+    .left_nav.ctive{
+        position: fixed;
+        top: 0;
+        left: 0%;
+    }
+    .left_nav.jy{
+        left: -100%;
+    }
+    .left_nav .user_box{
+        background: #b1e2bf7e;
+    }
+    .verrify_box{
+        background: #b1e2bf7e;
+    }
+    /* ------ssstart service  section------- */
+    .service_section{
+        min-width: 100%;
+        padding-left: 3%;
+        padding-bottom: 4%;
+        padding-right: 3%;
+    }
+    .boocking_section{
+        min-width: 100%;
+        padding-left: 3%;
+        padding-top: 2%;
+        padding-right: 3%;
+    }
+    .meeting_section{
+        min-width: 100%;
+        padding-left: 3%;
+        padding-top: 2%;
+        padding-right: 3%;
+    }
+    .review_section{
+        min-width: 100%;
+        padding-left: 3%;
+        padding-top: 5%;
+        padding-right: 3%;
+    }
+    .blog_section{
+        min-width: 100%;
+        padding-left: 3%;
+        padding-top: 5%;
+        padding-right: 3%;
+    }
+    .location_section{
+        min-width: 100%;
+        padding-left: 3%;
+        padding-top: 5%;
+        padding-right: 3%;
+    }
+}
+/* ------------------Media Query 991px----------- */
+
+
+
+
+/* ------------------Media Query 810px----------- */
+@media only screen and (max-width: 810px){
+    .left_col .service_cards .svc_card{
+        width: 300px;
+    }
+}
+/* ------------------Media Query 810px----------- */
+
+
+
+
+/* ------------media quary 768px------------------------------ */
+@media only screen and (max-width: 768px){
+    /* -----------------------Service Section Start------------------------- */
+    /* -------Serrvice left section start------ */
+    .left_col h1{
+        font-size: 54px;
+        line-height:65px;
+    }
+    /* --service Card section start-- */
+    .left_col .service_cards .svc_card{
+        width: 250px;
+    }
+    .left_col .service_cards .svc_card  h2{
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 450;
+        line-height: 18px;
+        margin-bottom: 7%;
+    }
+    /* --service Card section End-- */
+    /* ---------Serrvice left section end--------- */
+    /* -----------------------Service Section End------------------------- */
+
+    /* ------------------------boocking section start--------------------- */
+    /* ----book lefft sention start ---- */
+    .book_left_col .book_card .text_bx .button_bx button{
+        padding: 2% 3%;
+        margin-right: 3%;
+        border-radius: 4px;
+        background:#D1FCDD;
+        cursor: pointer;
+        font-size: 13px;
+        line-height: 14px;
+    }
+    .book_left_col .book_card{
+        width: 45%;
+    }
+    /* ----book lefft sention End ---- */
+    /* ------------------------boocking section End--------------------- */
+
+    /* -----------------------Blog section start----------------------- */
+    .blog_container{
+        flex-wrap: wrap;
+    }
+    .blog_container .blog_card{
+        padding: 10%;
+    }
+    /* -----------------------Blog section End----------------------- */
+
+    /* ------------------location section start----------------------- */
+    .location_section{
+        padding-bottom: 10%;
+    }
+    .location_container{
+        display: initial;
+    }
+    /* ---locatiobn left section start--- */
+    .loc_left_col{
+        width: 100%;
+    }
+    /* ---locatiobn left section End--- */
+    /* ---locatiobn right section Start--- */
+    .loc_right_col{
+        width: 100%;
+    }
+    /* ---location right section End--- */
+    /* ------------------location section End----------------------- */
+}
+/* ------------media quary 768px------------------------------ */
+
+
+
+
+/* ------------media quary 646px------------------------------ */
+@media only screen and (max-width: 646px){
+    .left_col .service_cards .svc_card{
+        width: 100%;
+    }
+    .left_col .service_cards .svc_card  h2{
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 450;
+        line-height: 18px;
+        margin-bottom: 3%;
+    }
+    /* --service Card section End-- */
+}
+/* ------------media quary 646px------------------------------ */
+
+
+
+
+/* ------------media quary 450px------------------------------ */
+@media only screen and (max-width: 450px){
+
+    .left_nav{
+        width: 50%;
+    }
+    .right_nav{
+        width: 50%;
+    }
+    .right_arrow{
+        position: absolute;
+        top: 2%;
+    }
+    .active_section .active_card:nth-child(3){
+        display: none;
+    }
+        
+    /* -----------------------Service Section Start------------------------- */
+    /* -------Serrvice left section start------ */
+    .left_col h1{
+        font-size: 54px;
+        line-height:65px;
+    }
+    /* --service Card section start-- */
+    .left_col .service_cards .svc_card{
+        width: 100%;
+    }
+    .left_col .service_cards .svc_card  h2{
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 450;
+        line-height: 18px;
+        margin-bottom: 3%;
+    }
+    /* --service Card section End-- */
+    /* ---------Serrvice left section end--------- */
+    /* -----------------------Service Section End------------------------- */
+
+
+    .book_left_col .book_card .text_bx .button_bx button{
+        padding: 3% 5%;
+    }
+    .book_left_col .book_card{
+        width: 80%;
+        margin: 4% 0;
+    }
+    /* ----book lefft sention End ---- */
+
+
+    /* ------------------------meeting section start---------------------- */
+    .meeting_section{
+        padding-top: 15%;
+    }
+    /* ---meeting left section start-- */
+    .mt_left_col .Mt_card_container .mt_card{
+        width: 100%;
+        margin: 5% 0;
+    }
+    /* ---meeting left section End-- */
+    /* ------------------------meeting section End---------------------- */
+}
+
+/* ------------media quary 450px------------------------------ */
